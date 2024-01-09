@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen.Fragment.PlayerFragment">
+
+<!--    <VideoView-->
+<!--        android:id="@+id/videoview"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:layout_margin="5dp" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btnPlay"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_below="@+id/videoview"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:onClick="PlayButton"-->
+<!--        android:text="Play" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btnPause"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_below="@+id/videoview"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:onClick="PauseButton"-->
+<!--        android:text="Pause" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btnRestart"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_below="@+id/btnPlay"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:onClick="RestartButton"-->
+<!--        android:text="Restart" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btnStop"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_below="@+id/btnPause"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:onClick="StopButton"-->
+<!--        android:text="Stop" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtTimer"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/btnStop"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:maxLength="4" />-->
+
+<!--    <SeekBar-->
+<!--        android:id="@+id/seekBar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:thumbTint="#FF3301"-->
+<!--        android:layout_below="@+id/videoview"-->
+<!--        android:progressTint="#FF3300"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:progressBackgroundTint="#BCBCBC" />-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="@color/profile_dark">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/imgBtn_restart"-->
+<!--                android:layout_width="60dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_marginEnd="15dp"-->
+<!--                android:background="#00B19506"-->
+<!--                android:elevation="10dp" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/imgBtn_play"-->
+<!--                android:layout_width="60dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_marginEnd="15dp"-->
+<!--                -->
+<!--                android:elevation="5dp"-->
+<!--                android:onClick="PlayButton_2"-->
+<!--                android:src="@drawable/view_video" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/imgBtn_stop"-->
+<!--                android:layout_width="60dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:background="#00BB86FC"-->
+<!--                android:elevation="10dp" />-->
+
+<!--        </LinearLayout>-->
+<!--    </RelativeLayout>-->
+
+</RelativeLayout>

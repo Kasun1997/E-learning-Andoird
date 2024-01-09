@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/db"
+            android:checkable="false"
+            android:enabled="false"
+            android:title="">
+        </item>
+
+        <item
+            android:checkable="false"
+            android:enabled="false"
+            android:id="@+id/event"
+            android:title="">
+        </item>
+
+        <item
+            android:checkable="false"
+            android:enabled="false"
+            android:id="@+id/search"
+            android:title="">
+        </item>
+
+        <item
+            android:checkable="false"
+            android:enabled="false"
+            android:id="@+id/settings"
+            android:title="">
+        </item>
+        <item
+            android:checkable="false"
+            android:enabled="false"
+            android:id="@+id/logout"
+            android:title="">
+        </item>
+    </group>
+
+<!--    <item android:title="TODO">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/activitiese"-->
+<!--                android:title="Activities">-->
+<!--            </item>-->
+
+<!--            <item-->
+<!--                android:id="@+id/logoute"-->
+<!--                android:icon="@drawable/ic_lock"-->
+<!--                android:title="Logout">-->
+<!--            </item>-->
+<!--        </menu>-->
+<!--    </item>-->
+
+<!--    <item android:title="TODO">-->
+<!--        <menu>-->
+<!--            <item-->
+
+<!--                android:id="@+id/activities"-->
+<!--                android:title="Activities"></item>-->
+
+<!--            <item-->
+
+<!--                android:id="@+id/logout"-->
+<!--                android:icon="@drawable/ic_lock"-->
+<!--                android:title="Logout"></item>-->
+<!--        </menu>-->
+<!--    </item>-->
+
+
+</menu>

@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">CrystalMartinElearning-App</string>
+
+    <!--LoginScreen_test-->
+    <string name="phone_number" translatable="false">Phone Number</string>
+    <string name="forget_password" translatable="false">Forget password</string>
+    <!-- <string name="keep_your">\"Keep your \"</string>-->
+    <!--<string name="hello">Hello World &amp;\nWelcome</string>-->
+    <!--<string name="the_future_of_working_education"><![CDATA[The future of Working & Education]]></string>-->
+    //-----------
+
+    <!--Splash screen-->
+    <string name="e_learning" translatable="false">E-LEARNING</string>
+    <string name="the_future_of_working_education" translatable="false"><![CDATA[The future of Working & Education]]></string>
+
+    <!--Login screen and Email Password validation-->
+    <string name="welcome_to_the_portal">Welcome to the Portal !</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="language">Language</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="loginloding">Loading....</string>
+    <string name="loginloding_description">wait for a while</string>
+    <string name="please_enter_username">Please enter username....</string>
+    <string name="please_enter_valid_email" translatable="false">Please enter valid email....</string>
+    <string name="please_enter_password">Please enter password....</string>
+    <string name="please_enter_valid_password">Please enter valid password</string>
+    <string name="logged_in_successfully">You have logged in successfully....</string>
+    <string name="Invalid_username_and_password">Invalid username and password</string>
+    <string name="wifi_or_mobile_data">Please on wifi or mobile data....</string>
+
+
+    <!--Reset password-->
+    <string name="resend_email">OK</string>
+    <string name="wait_30_seconds">Wait 30 seconds before sending it again</string>
+    <string name="we_have_sent_you">Contact your <br /> coordinator to change <br /> your password</string>
+
+    <!--Sidedrawer Action-->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!--Change password-->
+    <string name="choose_the_language">Choose the Language</string>
+
+    <!--Main Container-->
+    <string name="signed_out_successfully">You have signed out successfully....</string>
+    <string name="missusing_the_app">You are missusing the app!</string>
+    <string name="signout">SignOut</string>
+    <string name="a_u_want_to">Are you want to signout?</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="sign_out">Sign out</string>
+    <string name="connection_success">Connection Success</string>
+    <string name="connection_failed">Connection failed</string>
+
+    <!--HomeFragment-->
+    <string name="structure_of_training">Structure of training </string>
+    <string name="welcome">Welcome Back</string>
+    <string name="start_learning_nnew_stuff">Start Learning <br />New Stuff!</string>
+    <string name="trainings_in_progress">Trainings in progress</string>
+
+    <!--CourseFragment-->
+    <string name="courses">COURSES</string>
+    <string name="not_available">Not available any programmes</string>
+    <string name="loading_training">Loading</string>
+    <string name="wait_for_while">Please wait for a while</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="modules">MODULES</string>
+    <string name="not_available_videos">Not available assigned videos</string>
+    <string name="not_assign_pdf">Not available assigned pdf</string>
+    <string name="downloads">DOWNLOADS</string>
+    <string name="epf_number">EPF Number</string>
+    <string name="not_assign_other">Not assign other study materials</string>
+    <string name="started_downloading">Started downloading</string>
+    <string name="no_quize_to_open">There is no quize to open</string>
+    <string name="quize">Quiz</string>
+    <string name="once_you_begin">Once you start the quiz, you are not able to leave the quiz until you complete it.</string>
+    <string name="are_you_want_quiz">Do you want to begin the quiz?</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Downloading">Downloading...</string>
+    <string name="please_wait_till_finish">Please wait till finish the downloading</string>
+    <string name="download_completed">Download Completed</string>
+    <string name="download_successfully">Download Successfully Completed.</string>
+    <string name="ok">OK</string>
+    <string name="select_answer">Please Select the Answer</string>
+    <string name="quiz_level">Quiz Level</string>
+    <string name="done">Done</string>
+    <string name="quiz_summery">Quiz Summary</string>
+    <string name="finish">Finish</string>
+    <string name="no_answers">No selected answers</string>
+    <string name="complete_video_tutorial">You have to complete the video tutorial</string>
+    <string name="delete">Delete</string>
+    <string name="delete_this">Are you sure you want to delete this video?</string>
+    <string name="your_score">Your Score</string>
+    <string name="rate_your_overall_satisfaction_on_training_program_lesson">Rate your overall satisfaction on Training program/Lesson.</string>
+    <string name="how_do_you_rate_practical_applicability_of_your_learnings">How do you rate practical applicability of your learnings?</string>
+    <string name="how_do_you_rate_content_of_the_lesson">How do you rate content of the lesson?</string>
+    <string name="how_do_you_rate_quality_of_the_video">How do you rate quality of the video?</string>
+    <string name="sumbit">Submit</string>
+    <string name="want_to_submit">Are you want to submit the quiz</string>
+    <string name="play_video">Play Video</string>
+    <string name="download_and_watch">Download and watch video</string>
+    <string name="home">Home</string>
+<!--    <string name="session">Session time out</string>-->
+    <string name="session">Retry please</string>
+    <string name="fail_to">Fail to load</string>
+    <string name="this_is">This is not recognized format</string>
+    <string name="enter_your_description">Comments and Suggestions</string>
+    <string name="once_you_submit_you">Once you submit, you will no longer be able to change your answers for this attempt</string>
+    <string name="complete_only">You need to answer all questions before submission</string>
+    <string name="sure_want"> questions, Are you sure want to submit ?</string>
+    <string name="final_exam">Final Exam</string>
+    <string name="watch_relevent">Watch the videos relevant to your module</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="notice">Notice!!</string>
+    <string name="complete_watching">Please complete watching the videos relevant to the module to attempt the quiz.</string>
+    <string name="no_final_exam">There is no any final Exam for this course</string>
+    <string name="final_exam_summery">Final Exam Summary</string>
+    <string name="complete_all_the_modules">Please complete all the modules to attempt the final exam</string>
+    <string name="already_exists">This file is already exists...</string>
+
+
+</resources>

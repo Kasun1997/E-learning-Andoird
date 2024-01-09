@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceDarkAllowed="false"
+    android:background="@color/screen_background"
+    tools:context=".Screen.Fragment.StudyMaterialFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250sdp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/main_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtvwMaterialName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:fontFamily="@font/lato_bold"
+                android:text="@string/modules"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioBtnVideo"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@drawable/radio_button_video_design"
+                    android:button="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp" />
+
+
+                <RadioButton
+                    android:id="@+id/radioBtnPdf"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@drawable/radio_button_pdf_design"
+                    android:button="@android:color/transparent"
+                    android:foregroundTintMode="src_over"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp" />
+
+                <RadioButton
+                    android:id="@+id/radioBtnOther"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@drawable/radio_button_other_design"
+                    android:button="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioBtnQuize"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:background="@drawable/radio_button_quize_design"
+                    android:button="@android:color/transparent"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rLayoutVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_160sdp"
+        android:background="@drawable/inside_background_white">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_4sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:cardBackgroundColor="#DCDCDC"
+            app:cardCornerRadius="@dimen/_3sdp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            tools:listitem="@layout/itemview_training" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rLayoutPdf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_160sdp"
+        android:background="@drawable/inside_background_white"
+        android:visibility="invisible">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_4sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:cardBackgroundColor="#DCDCDC"
+            app:cardCornerRadius="@dimen/_3sdp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclePdf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            tools:listitem="@layout/itemview_training" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rLayoutOther"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_160sdp"
+        android:background="@drawable/inside_background_white"
+        android:visibility="invisible">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_4sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:cardBackgroundColor="#DCDCDC"
+            app:cardCornerRadius="@dimen/_3sdp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleOther"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_40sdp"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            tools:listitem="@layout/itemview_training" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rLayoutQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_160sdp"
+        android:background="@drawable/inside_background_white"
+        android:visibility="invisible">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_4sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:cardBackgroundColor="#DCDCDC"
+            app:cardCornerRadius="@dimen/_3sdp" />
+    </RelativeLayout>
+
+</RelativeLayout>

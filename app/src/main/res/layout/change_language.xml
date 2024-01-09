@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceDarkAllowed="false"
+    android:background="@color/white"
+    tools:context=".Screen.Activity.Change_Language">
+
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/login_book" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/login_bar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/raleway_bold"
+            android:text="@string/choose_the_language"
+            android:textSize="@dimen/_18sdp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/screen_bottom_background">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="@dimen/_230sdp"
+                        android:layout_height="@dimen/_45sdp"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:background="@drawable/button_background"
+                        android:fontFamily="@font/fu_ridhma"
+                        android:onClick="Sinhala"
+                        android:text="isxy,"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_16sdp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="@dimen/_230sdp"
+                        android:layout_height="@dimen/_45sdp"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:background="@drawable/button_background"
+                        android:fontFamily="@font/lato_bold"
+                        android:onClick="English"
+                        android:text="English"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_14sdp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_width="@dimen/_230sdp"
+                        android:layout_height="@dimen/_45sdp"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:background="@drawable/button_background"
+                        android:onClick="Tamil"
+                        android:text="தமிழ்"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_16sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

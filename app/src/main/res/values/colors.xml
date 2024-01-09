@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#0091EA</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    //------------------------------------------
+
+    //Main Theme Colors
+    <color name="crystalRed">#F22C09</color>
+    <color name="crystalBlue">#133A95</color>
+
+    //Alert Colors
+    <color name="AlertRed">#E44848</color>
+    <color name="AlertGreen">#65E448</color>
+    <color name="AlertBlue">#2A3EBD</color>
+    <color name="AlertYellow">#FCD404</color>
+
+    //Background Colors
+    <color name="editText_background">#F5F5F5</color>
+    <color name="editText_stroke">#E9133A95</color>
+    <color name="screen_background">#EDEDED</color>
+
+
+    <color name="logout_font">#305F72</color>
+    <color name="hardcord_text_color">#888787</color>
+    <color name="prohibited">#AEACAC</color>
+    <color name="main_hardcord_text_color">#305F72</color>
+    <color name="transparent">#305F72</color>
+    <color name="darkcolours">#254A59</color>
+
+    //Module textview colours
+    <!--    <color name="light_rose">#FFB8BA</color>-->
+    <!--    <color name="light_pink">#0FF870</color>-->
+    <!--    <color name="light_blue">#8CC5F1</color>-->
+    <!--    <color name="light_purple">#D08CF1</color>-->
+    <!--    <color name="light_red">#F49249</color>-->
+    <!--    <color name="light_green">#67DF93</color>-->
+
+    <color name="light_rose">#3FB2F8</color>
+    <color name="light_pink">#FFD80F</color>
+    <color name="light_blue">#B23BED</color>
+    <color name="light_purple">#FF7F1F</color>
+    <color name="light_red">#3DE691</color>
+    <color name="light_green">#02A53E</color>
+    <color name="profile_colour">#88B0BF</color>
+    <color name="profile_dark">#305F72</color>
+    <color name="sendfont">#B0C8FF</color>
+
+    <!-- edtxtEmail-->
+    <!-- txvwEmail-->
+    <!--imgTop-->
+
+</resources>
